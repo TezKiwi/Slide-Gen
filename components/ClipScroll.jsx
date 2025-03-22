@@ -30,7 +30,7 @@ export default function ClipScroll() {
   }
 
   return (
-    <main className={styles.main}>
+    <main className={styles.main }>
       <div ref={container} className={styles.container}>
         <div ref={stickyMask} className={styles.stickyMask}>
           <video autoPlay muted loop>

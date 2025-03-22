@@ -7,20 +7,16 @@ import { LoginLink, RegisterLink } from "@kinde-oss/kinde-auth-nextjs/components
 import ClipScroll from "../ClipScroll";
 const Hero = () => {
   return (
-    <>
-    <ClipScroll />
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 to-indigo-100">
+    <section className="min-h-screen flex items-center justify-center bg-[#F5F5DC]">
       <MaxWidthWrapper>
         <div className="grid lg:grid-cols-2 items-center">
           <div className="lg:text-left text-center">
             <h1 className="mb-6 text-4xl font-black leading-tight text-gray-900 lg:text-6xl">
               Generate educational{" "}
-              <span className="text-violet-600">Powerpoints</span> from YouTube
-              videos.
+              <span className="text-violet-600">Powerpoints</span> with AI 
             </h1>
             <p className="mb-9 text-lg text-gray-600">
-              An online tool for teachers that allows you to convert educational
-              YouTube videos into engaging presentations.
+              Craft compelling prompts or delineate intricate topics, and witness the instantaneous generation of sophisticated PowerPoints, all facilitated by advanced artificial intelligence.
             </p>
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
               <RegisterLink
@@ -43,21 +39,17 @@ const Hero = () => {
             </div>
           </div>
           <div>
-            <Card className="overflow-hidden shadow-2xl">
               <Image
-                src="/lecture-1.jpg"
+                src="/bf6cce65b6871d2afb4d0a4b725ec60e.png"
                 className="w-full h-auto object-cover"
                 alt="hero image"
                 width={600}
                 height={600}
               />
-            </Card>
           </div>
         </div>
       </MaxWidthWrapper>
     </section>
-    </>
   );
-};
-
+}
 export default Hero;

@@ -7,7 +7,7 @@ import { LoginLink, RegisterLink } from "@kinde-oss/kinde-auth-nextjs/components
 import ClipScroll from "../ClipScroll";
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-[#F5F5DC]">
+    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-50 via-white to-violet-100 py-12">
       <MaxWidthWrapper>
         <div className="grid lg:grid-cols-2 items-center">
           <div className="lg:text-left text-center">

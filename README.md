@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+SlideGen is a web application that leverages the power of AI to generate professional-looking PowerPoint presentations. Users provide input, and SlideGen uses the OpenAI API to create compelling presentations, streamlining the presentation creation process.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technology Stack
+SlideGen utilizes a modern and robust technology stack:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Frontend: Next.js, React, TypeScript, ShadCN (Radix UI & Tailwind CSS)
+Backend: Next.js API Routes, Prisma ORM
+Database: PostgreSQL (hosted on Neon)
+Authentication: Kinde
+File Uploads: UploadThing
+AI Engine: OpenAI API
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Summary
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+SlideGen is built using a modern web stack. Next.js provides the framework, ShadCN the UI components, and TypeScript the type safety. Prisma connects the application to a Neon-hosted Postgres database. Kinde handles authentication, and UploadThing manages file uploads.  The OpenAI API is the engine for generating the PowerPoint presentations based on user input.

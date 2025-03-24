@@ -17,3 +17,6 @@ AI Engine: OpenAI API
 ## Summary
 
 SlideGen is built using a modern web stack. Next.js provides the framework, ShadCN the UI components, and TypeScript the type safety. Prisma connects the application to a Neon-hosted Postgres database. Kinde handles authentication, and UploadThing manages file uploads.  The OpenAI API is the engine for generating the PowerPoint presentations based on user input.
+
+## Video Demo
+A quick demo of the platform can be found [here](http://www.youtube.com/watch?v=AYIiUFCqO5M).
